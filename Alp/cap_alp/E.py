@@ -1,4 +1,4 @@
-def E():
+def for_E():
     for row in range(7):
         for col in range(5):
             if (col==0 ) or (row==0 or row==3 or row==6):
@@ -7,7 +7,7 @@ def E():
                 print(end="  ")
         print()
 
-def E():
+def while_E():
     i=0
     while i<7:
         j=0
