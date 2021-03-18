@@ -1,4 +1,4 @@
-def for_1():
+def for_one():
     for row in range(7):
         for col in range(7):
             if (col==3 or row==6) or (row<3 and row+col==2):
@@ -8,7 +8,7 @@ def for_1():
         print()
 
 
-def while_1():
+def while_one():
     row=0
     while row<7:
         col=0
