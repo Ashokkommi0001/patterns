@@ -1,4 +1,4 @@
-def F():
+def for_F():
     for row in range(7):
         for col in range(5):
             if (col==0) or (row==0 or row==3):
@@ -7,7 +7,7 @@ def F():
                 print(end="  ")
         print()
 
-def F():
+def while_F():
     i=0
     while i<7:
         j=0
