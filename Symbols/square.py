@@ -1,4 +1,4 @@
-def for_squear():
+def for_square():
     for row in range(7):
         for col in range(7):
             if row==0 or row==6 or col==0 or col==6:
@@ -7,7 +7,7 @@ def for_squear():
                 print(end="  ")
         print()
 
-def while_squear():
+def while_square():
     row=0
     while row<7:
         col=0
